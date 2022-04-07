@@ -1,0 +1,56 @@
+*{
+    font-family: Segoe UI;
+
+    margin:5px;
+
+}
+
+
+header{
+
+top: 0px;
+width:100%;
+height: 20%;
+
+display: flex;
+
+/* quando a DIV é vertical, o aling-itens é Horizontal, e vice versa. Ela sempre é perpendicular à div */
+align-items: space-between;
+
+flex-direction: row;
+
+
+/* já o justify content é paralelo a div, e se ela for horizontal, ele vai indicar o posicionamento dos itens verticalmente tbm */
+justify-content: space-between;
+
+}
+
+
+.title{
+
+    align-items: left;
+
+
+
+}
+
+
+.Lista_de_exercícios{
+    font-size: 30px;
+}
+
+.página{
+    font-size: 23px;
+}
+
+.next{
+   
+    width: 10%;
+    display: flex;
+    align-items: center;
+    display: flex-end;
+    align-items: right;
+    font-size: 13px;
+    
+    justify-content: right;
+}
